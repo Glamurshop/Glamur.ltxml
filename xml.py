@@ -212,16 +212,18 @@ def build_xml(products):
             # DELIVERY (pagal tavo setup)
             f.write("    <delivery>\n")
 
+            f.write("    <delivery>\n")
+            
             f.write("      <home_delivery>\n")
             f.write("        <working_days><![CDATA[4]]></working_days>\n")
             f.write("        <price><![CDATA[5.0]]></price>\n")
             f.write("      </home_delivery>\n")
-
+            
             f.write("      <parcel_locker_delivery>\n")
             f.write("        <working_days><![CDATA[4]]></working_days>\n")
             f.write("        <price><![CDATA[2.99]]></price>\n")
             f.write("      </parcel_locker_delivery>\n")
-
+            
             f.write("    </delivery>\n")
 
             f.write("  </product>\n")
