@@ -118,9 +118,13 @@ def fetch_products(country_code="LT", locale="lt"):
             # =====================
             # IMAGE
             # =====================
-            image = node.get("image", {}).get("src") \
-                or product.get("featuredImage", {}).get("src") \
-                or ""
+            image = ""
+            
+            if node.get("image") and node["image"].get("src"):
+                image = node["image"]["src"]
+            
+            elif product.get("featuredImage") and product["featuredImage"].get("src"):
+                image = product["featuredImage"]["src"]
 
             # =====================
             # APPEND
