@@ -210,7 +210,6 @@ def build_xml(products):
             f.write(f'    <description><![CDATA[{p["description"]}]]></description>\n')
 
             # DELIVERY (pagal tavo setup)
-            f.write("    <delivery>\n")
 
             f.write("    <delivery>\n")
             
