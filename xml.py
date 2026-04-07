@@ -19,7 +19,7 @@ HEADERS = {
 OUTPUT_FILE = "glamur_lt.xml"
 
 # TEST MODE
-TEST_MODE = True
+TEST_MODE = False
 TEST_LIMIT = 50
 
 # =========================
