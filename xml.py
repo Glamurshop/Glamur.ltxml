@@ -19,8 +19,8 @@ HEADERS = {
 OUTPUT_FILE = "glamur_lt.xml"
 
 # TEST MODE
-TEST_MODE = False
-TEST_LIMIT = 50
+TEST_MODE = True
+TEST_LIMIT = 1
 
 # =========================
 # FETCH PRODUCTS (LT)
